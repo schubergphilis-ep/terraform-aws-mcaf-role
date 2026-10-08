@@ -4,6 +4,13 @@ variable "assume_policy" {
   description = "The assume policy to attach to the role."
 }
 
+variable "assume_policy_actions" {
+  type        = list(string)
+  default     = ["sts:AssumeRole"]
+  nullable    = false
+  description = "Actions allowed in the generated assume role policy. Ignored when `assume_policy` is set."
+}
+
 variable "create_policy" {
   type        = bool
   default     = null

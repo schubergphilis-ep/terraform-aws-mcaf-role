@@ -5,9 +5,7 @@ locals {
 
 data "aws_iam_policy_document" "default" {
   statement {
-    actions = [
-      "sts:AssumeRole"
-    ]
+    actions = var.assume_policy_actions
 
     principals {
       type        = var.principal_type

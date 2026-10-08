@@ -34,6 +34,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_assume_policy"></a> [assume\_policy](#input\_assume\_policy) | The assume policy to attach to the role. | `string` | `null` | no |
+| <a name="input_assume_policy_actions"></a> [assume\_policy\_actions](#input\_assume\_policy\_actions) | Actions allowed in the generated assume role policy. Ignored when `assume_policy` is set. | `list(string)` | <pre>[<br/>  "sts:AssumeRole"<br/>]</pre> | no |
 | <a name="input_create_policy"></a> [create\_policy](#input\_create\_policy) | Overrule whether the IAM role policy has to be created. | `bool` | `null` | no |
 | <a name="input_description"></a> [description](#input\_description) | The description of the role. | `string` | `null` | no |
 | <a name="input_force_detach_policies"></a> [force\_detach\_policies](#input\_force\_detach\_policies) | Force detaching any policies the role has before destroying it. | `bool` | `false` | no |
