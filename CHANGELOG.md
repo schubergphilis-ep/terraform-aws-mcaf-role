@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.6.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-role/compare/v0.5.3...v0.6.0) (2026-10-08)
+
+
+### 🚀 Features
+
+* allow override of default assume policy actions ([#2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-role/issues/2)) ([6db9808](https://github.com/schubergphilis-ep/terraform-aws-mcaf-role/commit/6db980887260cffbe6e0da299ea6e6b7fa72b289))
+
 ## [0.5.3](https://github.com/schubergphilis-ep/terraform-aws-mcaf-role/compare/v0.5.2...v0.5.3) (2025-03-25)
 
 
@@ -73,4 +80,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-role/compare/v0.1.1...v0.1.0) (2019-07-09)
 
 ## 0.1.1 (2019-07-09)
-
